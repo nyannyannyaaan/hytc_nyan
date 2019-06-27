@@ -1,0 +1,41 @@
+.right{
+    color:pink ;
+    font-size: 20px;
+    
+
+}
+.left{
+    color:rgb(160, 19, 42) ;
+    font-size: 20px;
+    border:20px solid #ccc;
+
+}
+#t1{
+    color:rebeccapurple;
+}
+#t2,.right{
+    border:1px solid #ccc;
+}
+h1#t1{
+    border:50px solid #ccc;
+}
+/*.header li{
+ //   color:white;
+*/
+.header>ul>li :hover{
+    background-color:rgb(224, 170, 224);
+}
+ul::after{
+    content:"hello";
+}
+/*.header:hover{
+    background-color:rgb(224, 170, 224);}*/
+header:hover {
+        text-decoration: none;
+        color: #818181;
+      }
+header:focus {
+        outline: none;
+        color: #999999;
+        text-decoration: none;
+      }
